@@ -1,5 +1,16 @@
 # p5.js Template
 
+Process：
+
+What I understand with the picture is that as long as the points are connected by lines, it will be fine. So I think connecting points in pairs is a way. 
+
+I set to only generate 50 points, and there would only be 25 lines connecting two of them. I first randomly generated 25 points so that their positions and size are within the random() range. Then I replicated this process to generate a second set of 25 points. 
+
+Finally, I generated a line to connect them. The coordinates of one end are the coordinates of the first group of 25 points, and the coordinates of the other end are the coordinates of the second group of 25 points.
+
+
+
+
 This is a README file that can be used to describe and document your assignment.
 
 Markdown Cheatsheet (from [https://www.markdownguide.org/cheat-sheet/](https://www.markdownguide.org/cheat-sheet/)):
