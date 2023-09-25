@@ -8,8 +8,8 @@ function setup() {
 function draw() {
   background("yellow");
   fill("black");
-  randomSeed(11);
-  pointsCount = 50;
+  randomSeed(5);
+  pointsCount = 60;
   for (let idx = 0; idx < pointsCount / 2; idx += 1) {
     randomX1 = random() * width;
     randomY1 = random() * height;
